@@ -1,0 +1,17 @@
+# Default configuration file
+homebrew:
+  taps:
+    - homebrew/cask
+    - homebrew/core
+  formulas:
+    - git
+    - wget
+    - node
+  casks:
+    - google-chrome
+    - visual-studio-code
+    - docker
+preferences:
+  show_hidden_files: false
+dock:
+  remove_all: true
