@@ -12,20 +12,13 @@ This project automates the setup of your macOS environment, including software i
 
 ## Commands
 
-### `setup`
-
-Run the full setup process using the specified configuration file.
-
-```sh
-python mac_setup/cli.py setup --config path/to/config.yaml
-```
 
 ### `install`
 
 Install software from the configuration file.
 
 ```sh
-python mac_setup/cli.py install --config path/to/config.yaml
+python3 mac_setup/cli.py install --config path/to/config.yaml
 ```
 
 ### `dock`
@@ -33,7 +26,7 @@ python mac_setup/cli.py install --config path/to/config.yaml
 Customize the macOS Dock.
 
 ```sh
-python mac_setup/cli.py dock
+python3 mac_setup/cli.py dock
 ```
 
 ### `preferences`
@@ -41,7 +34,7 @@ python mac_setup/cli.py dock
 Set macOS system preferences.
 
 ```sh
-python mac_setup/cli.py preferences --config path/to/config.yaml
+python3 mac_setup/cli.py preferences --config path/to/config.yaml
 ```
 
 ## Configuration
